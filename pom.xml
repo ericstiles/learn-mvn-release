@@ -4,9 +4,9 @@
         <!--        <url>scm:git:file://Users/ericstiles/repo/java/learn-mvn-release/.git</url> &lt;!&ndash; URL HTTP de clone do projeto &ndash;&gt;-->
         <!--        <connection>scm:git:file://Users/ericstiles/repo/java/learn-mvn-release/.git</connection> &lt;!&ndash; URL HTTP de clone do projeto &ndash;&gt;-->
         <!--        <developerConnection>scm:git:file://Users/ericstiles/repo/java/learn-mvn-release/.git</developerConnection> &lt;!&ndash; URL HTTP de clone do projeto &ndash;&gt;-->
-        <url>scm:git:git@github.com:ericstiles/learn-mvn-release.git</url>
-        <connection>scm:git:git@github.com:ericstiles/learn-mvn-release.git</connection>
-        <developerConnection>scm:git:git@github.com:ericstiles/learn-mvn-release.git</developerConnection>
+        <url>scm:git:https://github.com/ericstiles/learn-mvn-release.git</url>
+        <connection>scm:git:https://github.com/ericstiles/learn-mvn-release.git</connection>
+        <developerConnection>scm:git:https://github.com/ericstiles/learn-mvn-release.gitn-mvn-release.git</developerConnection>
         <tag>1.0</tag>
     </scm>
 
