@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+    <scm>
+        <!--        <url>scm:git:file://Users/ericstiles/repo/java/learn-mvn-release/.git</url> &lt;!&ndash; URL HTTP de clone do projeto &ndash;&gt;-->
+        <!--        <connection>scm:git:file://Users/ericstiles/repo/java/learn-mvn-release/.git</connection> &lt;!&ndash; URL HTTP de clone do projeto &ndash;&gt;-->
+        <!--        <developerConnection>scm:git:file://Users/ericstiles/repo/java/learn-mvn-release/.git</developerConnection> &lt;!&ndash; URL HTTP de clone do projeto &ndash;&gt;-->
+        <url>scm:git:git@github.com:ericstiles/learn-mvn-release.git</url>
+        <connection>scm:git:git@github.com:ericstiles/learn-mvn-release.git</connection>
+        <developerConnection>scm:git:git@github.com:ericstiles/learn-mvn-release.git</developerConnection>
+        <tag>1.0</tag>
+    </scm>
 
+    <modelVersion>4.0.0</modelVersion>
     <groupId>org.example</groupId>
     <artifactId>learn-mvn-release</artifactId>
+
     <version>1.0</version>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
-
-    <scm>
-        <url>scm:git:file://Users/ericstiles/repo/java/learn-mvn-release/.git</url> <!-- URL HTTP de clone do projeto -->
-        <connection>scm:git:file://Users/ericstiles/repo/java/learn-mvn-release/.git</connection> <!-- URL HTTP de clone do projeto -->
-        <developerConnection>scm:git:file://Users/ericstiles/repo/java/learn-mvn-release/.git</developerConnection> <!-- URL HTTP de clone do projeto -->
-        <tag>1.0</tag>
-    </scm>
 
     <build>
         <plugins>
