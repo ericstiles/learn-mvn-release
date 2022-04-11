@@ -4,17 +4,22 @@
         <!--        <url>scm:git:file://Users/ericstiles/repo/java/learn-mvn-release/.git</url> &lt;!&ndash; URL HTTP de clone do projeto &ndash;&gt;-->
         <!--        <connection>scm:git:file://Users/ericstiles/repo/java/learn-mvn-release/.git</connection> &lt;!&ndash; URL HTTP de clone do projeto &ndash;&gt;-->
         <!--        <developerConnection>scm:git:file://Users/ericstiles/repo/java/learn-mvn-release/.git</developerConnection> &lt;!&ndash; URL HTTP de clone do projeto &ndash;&gt;-->
-        <url>scm:git:https://github.com/ericstiles/learn-mvn-release.git</url>
-        <connection>scm:git:https://github.com/ericstiles/learn-mvn-release.git</connection>
-        <developerConnection>scm:git:https://github.com/ericstiles/learn-mvn-release.git</developerConnection>
-        <tag>1.0.2</tag>
+        <url>scm:git:git@github.com:ericstiles/learn-mvn-release.git</url>
+        <connection>scm:git:git@github.com:ericstiles/learn-mvn-release.git</connection>
+        <developerConnection>scm:git:git@github.com:ericstiles/learn-mvn-release.git</developerConnection>
+
+<!--        <url>scm:git:https://github.com/ericstiles/learn-mvn-release.git</url>-->
+<!--        <connection>scm:git:https://github.com/ericstiles/learn-mvn-release.git</connection>-->
+<!--        <developerConnection>scm:git:https://github.com/ericstiles/learn-mvn-release.git</developerConnection>-->
+
+        <tag>1.0</tag>
     </scm>
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.example</groupId>
     <artifactId>learn-mvn-release</artifactId>
 
-    <version>1.0.2</version>
+    <version>1.0</version>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
