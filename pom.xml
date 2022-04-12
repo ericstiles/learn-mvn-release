@@ -12,7 +12,7 @@
 <!--        <connection>scm:git:https://github.com/ericstiles/learn-mvn-release.git</connection>-->
 <!--        <developerConnection>scm:git:https://github.com/ericstiles/learn-mvn-release.git</developerConnection>-->
 
-        <tag>my-branch</tag>
+        <tag>release1.0.5</tag>
     </scm>
     <distributionManagement>
         <repository>
@@ -28,7 +28,7 @@
     <groupId>org.example</groupId>
     <artifactId>learn-mvn-release</artifactId>
 
-    <version>1.0.5-SNAPSHOT</version>
+    <version>1.0.5</version>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
