@@ -14,4 +14,4 @@ if [ -n "$(git status --porcelain)" ]; then
 fi
 
 echo "no changes, moving forward with release";
-echo git checkout release
+git checkout release
