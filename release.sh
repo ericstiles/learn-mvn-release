@@ -18,6 +18,9 @@ echo "no changes, moving forward with release";
 echo "checkout release branch"
 git checkout release
 
+echo "pulling latest"
+git pull origin release
+
 echo "rebase main onto release"
 git rebase main
 
