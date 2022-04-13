@@ -3,3 +3,4 @@ target
 *.old
 
 release.properties
+pom.xml.releaseBackup
