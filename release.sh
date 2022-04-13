@@ -44,10 +44,18 @@ if [ $SUCCESS != 0 ]; then
   exit $SUCCESS
 fi
 
+echo "push origin release"
+git push origin release
+
+SUCCESS=$?
+if [ $SUCCESS != 0 ]; then
+  echo "error $SUCCESS on git push origin release"
+  exit $SUCCESS
+fi
 
 
 echo "mvn release:clean"
-mvn release:clean
+mvn release:clean --batch-mode
 
 SUCCESS=$?
 if [ $SUCCESS != 0 ]; then
@@ -57,7 +65,7 @@ fi
 
 
 echo "mvn release:prepare"
-mvn release:prepare
+mvn release:prepare --batch-mode
 
 SUCCESS=$?
 if [ $SUCCESS != 0 ]; then
@@ -67,7 +75,7 @@ fi
 
 
 echo "mvn release:perform"
-mvn release:perform
+mvn release:perform --batch-mode
 
 SUCCESS=$?
 if [ $SUCCESS != 0 ]; then
