@@ -91,3 +91,21 @@ if [ $SUCCESS != 0 ]; then
   echo "error $SUCCESS on git checkout main"
   exit $SUCCESS
 fi
+
+echo "merge release to main"
+git merge release
+
+SUCCESS=$?
+if [ $SUCCESS != 0 ]; then
+  echo "error $SUCCESS on git merge release to main"
+  exit $SUCCESS
+fi
+
+echo "push origin main"
+git push origin main
+
+SUCCESS=$?
+if [ $SUCCESS != 0 ]; then
+  echo "error $SUCCESS on git push origin main"
+  exit $SUCCESS
+fi
