@@ -93,7 +93,7 @@ if [ $SUCCESS != 0 ]; then
 fi
 
 echo "merge release to main"
-git merge release
+git merge  --no-ff --no-edit release
 
 SUCCESS=$?
 if [ $SUCCESS != 0 ]; then
